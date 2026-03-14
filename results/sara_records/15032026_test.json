@@ -1,0 +1,1191 @@
+{
+  "meta": {
+    "patient_folder": "sara_records",
+    "test_date": "14/03/2026",
+    "test_time": "06:08:38",
+    "file_name": "15032026_test.json",
+    "platform": "Huawei ModelArts · MindSpore 1.7.0",
+    "model_version": "v1.0-synthetic-baseline",
+    "obs_bucket": "urinalysis-data-jnb",
+    "obs_key": "results/sara_records/15032026_test.json"
+  },
+  "summary": {
+    "overall_severity": 1,
+    "overall_severity_label": "Mild",
+    "verdict": "MONITOR — See doctor if symptoms persist",
+    "total_pads_tested": 10,
+    "normal_pads": 9,
+    "abnormal_pads_count": 1,
+    "critical_pads_count": 0,
+    "abnormal_pads": [
+      "Glucose"
+    ],
+    "critical_pads": [],
+    "all_normal": false
+  },
+  "disclaimer": "Screening tool only — not a substitute for professional medical diagnosis.",
+  "biomarkers": [
+    {
+      "pad": "Leukocytes",
+      "predicted_level": "Negative",
+      "confidence": 0.2562,
+      "confidence_pct": "25.6%",
+      "severity": 0,
+      "severity_label": "Normal",
+      "status": "OK",
+      "is_abnormal": false,
+      "clinical_note": "",
+      "all_levels": [
+        {
+          "level": "Negative",
+          "probability": 0.2562,
+          "probability_pct": "25.6%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": true
+        },
+        {
+          "level": "Trace",
+          "probability": 0.2443,
+          "probability_pct": "24.4%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "Small",
+          "probability": 0.1833,
+          "probability_pct": "18.3%",
+          "severity": 2,
+          "severity_label": "Moderate",
+          "is_predicted": false
+        },
+        {
+          "level": "Moderate",
+          "probability": 0.1539,
+          "probability_pct": "15.4%",
+          "severity": 2,
+          "severity_label": "Moderate",
+          "is_predicted": false
+        },
+        {
+          "level": "Large",
+          "probability": 0.1623,
+          "probability_pct": "16.2%",
+          "severity": 3,
+          "severity_label": "Critical",
+          "is_predicted": false
+        }
+      ],
+      "all_levels_ranked": [
+        {
+          "level": "Negative",
+          "probability": 0.2562,
+          "probability_pct": "25.6%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": true
+        },
+        {
+          "level": "Trace",
+          "probability": 0.2443,
+          "probability_pct": "24.4%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "Small",
+          "probability": 0.1833,
+          "probability_pct": "18.3%",
+          "severity": 2,
+          "severity_label": "Moderate",
+          "is_predicted": false
+        },
+        {
+          "level": "Large",
+          "probability": 0.1623,
+          "probability_pct": "16.2%",
+          "severity": 3,
+          "severity_label": "Critical",
+          "is_predicted": false
+        },
+        {
+          "level": "Moderate",
+          "probability": 0.1539,
+          "probability_pct": "15.4%",
+          "severity": 2,
+          "severity_label": "Moderate",
+          "is_predicted": false
+        }
+      ],
+      "probabilities_pct": {
+        "Negative": "25.6%",
+        "Trace": "24.4%",
+        "Small": "18.3%",
+        "Moderate": "15.4%",
+        "Large": "16.2%"
+      },
+      "probabilities_raw": {
+        "Negative": 0.2562,
+        "Trace": 0.2443,
+        "Small": 0.1833,
+        "Moderate": 0.1539,
+        "Large": 0.1623
+      }
+    },
+    {
+      "pad": "Nitrite",
+      "predicted_level": "Negative",
+      "confidence": 0.6264,
+      "confidence_pct": "62.6%",
+      "severity": 0,
+      "severity_label": "Normal",
+      "status": "OK",
+      "is_abnormal": false,
+      "clinical_note": "",
+      "all_levels": [
+        {
+          "level": "Negative",
+          "probability": 0.6264,
+          "probability_pct": "62.6%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": true
+        },
+        {
+          "level": "Positive",
+          "probability": 0.3736,
+          "probability_pct": "37.4%",
+          "severity": 3,
+          "severity_label": "Critical",
+          "is_predicted": false
+        }
+      ],
+      "all_levels_ranked": [
+        {
+          "level": "Negative",
+          "probability": 0.6264,
+          "probability_pct": "62.6%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": true
+        },
+        {
+          "level": "Positive",
+          "probability": 0.3736,
+          "probability_pct": "37.4%",
+          "severity": 3,
+          "severity_label": "Critical",
+          "is_predicted": false
+        }
+      ],
+      "probabilities_pct": {
+        "Negative": "62.6%",
+        "Positive": "37.4%"
+      },
+      "probabilities_raw": {
+        "Negative": 0.6264,
+        "Positive": 0.3736
+      }
+    },
+    {
+      "pad": "Urobilinogen",
+      "predicted_level": "Normal",
+      "confidence": 0.9603,
+      "confidence_pct": "96.0%",
+      "severity": 0,
+      "severity_label": "Normal",
+      "status": "OK",
+      "is_abnormal": false,
+      "clinical_note": "",
+      "all_levels": [
+        {
+          "level": "Low",
+          "probability": 0.0397,
+          "probability_pct": "4.0%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "Normal",
+          "probability": 0.9603,
+          "probability_pct": "96.0%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": true
+        },
+        {
+          "level": "Elevated",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "High",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 2,
+          "severity_label": "Moderate",
+          "is_predicted": false
+        },
+        {
+          "level": "Very High",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 3,
+          "severity_label": "Critical",
+          "is_predicted": false
+        }
+      ],
+      "all_levels_ranked": [
+        {
+          "level": "Normal",
+          "probability": 0.9603,
+          "probability_pct": "96.0%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": true
+        },
+        {
+          "level": "Low",
+          "probability": 0.0397,
+          "probability_pct": "4.0%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "Elevated",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "High",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 2,
+          "severity_label": "Moderate",
+          "is_predicted": false
+        },
+        {
+          "level": "Very High",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 3,
+          "severity_label": "Critical",
+          "is_predicted": false
+        }
+      ],
+      "probabilities_pct": {
+        "Low": "4.0%",
+        "Normal": "96.0%",
+        "Elevated": "0.0%",
+        "High": "0.0%",
+        "Very High": "0.0%"
+      },
+      "probabilities_raw": {
+        "Low": 0.0397,
+        "Normal": 0.9603,
+        "Elevated": 0.0,
+        "High": 0.0,
+        "Very High": 0.0
+      }
+    },
+    {
+      "pad": "Protein",
+      "predicted_level": "Negative",
+      "confidence": 0.7152,
+      "confidence_pct": "71.5%",
+      "severity": 0,
+      "severity_label": "Normal",
+      "status": "OK",
+      "is_abnormal": false,
+      "clinical_note": "",
+      "all_levels": [
+        {
+          "level": "Negative",
+          "probability": 0.7152,
+          "probability_pct": "71.5%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": true
+        },
+        {
+          "level": "Trace",
+          "probability": 0.2837,
+          "probability_pct": "28.4%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "Mild",
+          "probability": 0.0011,
+          "probability_pct": "0.1%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "Moderate",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 2,
+          "severity_label": "Moderate",
+          "is_predicted": false
+        },
+        {
+          "level": "High",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 3,
+          "severity_label": "Critical",
+          "is_predicted": false
+        },
+        {
+          "level": "Very High",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 3,
+          "severity_label": "Critical",
+          "is_predicted": false
+        }
+      ],
+      "all_levels_ranked": [
+        {
+          "level": "Negative",
+          "probability": 0.7152,
+          "probability_pct": "71.5%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": true
+        },
+        {
+          "level": "Trace",
+          "probability": 0.2837,
+          "probability_pct": "28.4%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "Mild",
+          "probability": 0.0011,
+          "probability_pct": "0.1%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "Moderate",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 2,
+          "severity_label": "Moderate",
+          "is_predicted": false
+        },
+        {
+          "level": "High",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 3,
+          "severity_label": "Critical",
+          "is_predicted": false
+        },
+        {
+          "level": "Very High",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 3,
+          "severity_label": "Critical",
+          "is_predicted": false
+        }
+      ],
+      "probabilities_pct": {
+        "Negative": "71.5%",
+        "Trace": "28.4%",
+        "Mild": "0.1%",
+        "Moderate": "0.0%",
+        "High": "0.0%",
+        "Very High": "0.0%"
+      },
+      "probabilities_raw": {
+        "Negative": 0.7152,
+        "Trace": 0.2837,
+        "Mild": 0.0011,
+        "Moderate": 0.0,
+        "High": 0.0,
+        "Very High": 0.0
+      }
+    },
+    {
+      "pad": "pH",
+      "predicted_level": "7.0",
+      "confidence": 0.9983,
+      "confidence_pct": "99.8%",
+      "severity": 0,
+      "severity_label": "Normal",
+      "status": "OK",
+      "is_abnormal": false,
+      "clinical_note": "",
+      "all_levels": [
+        {
+          "level": "5.0",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "6.0",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": false
+        },
+        {
+          "level": "6.5",
+          "probability": 0.0015,
+          "probability_pct": "0.1%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": false
+        },
+        {
+          "level": "7.0",
+          "probability": 0.9983,
+          "probability_pct": "99.8%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": true
+        },
+        {
+          "level": "7.5",
+          "probability": 0.0002,
+          "probability_pct": "0.0%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": false
+        },
+        {
+          "level": "8.0",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "8.5",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 2,
+          "severity_label": "Moderate",
+          "is_predicted": false
+        }
+      ],
+      "all_levels_ranked": [
+        {
+          "level": "7.0",
+          "probability": 0.9983,
+          "probability_pct": "99.8%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": true
+        },
+        {
+          "level": "6.5",
+          "probability": 0.0015,
+          "probability_pct": "0.1%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": false
+        },
+        {
+          "level": "7.5",
+          "probability": 0.0002,
+          "probability_pct": "0.0%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": false
+        },
+        {
+          "level": "5.0",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "6.0",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": false
+        },
+        {
+          "level": "8.0",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "8.5",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 2,
+          "severity_label": "Moderate",
+          "is_predicted": false
+        }
+      ],
+      "probabilities_pct": {
+        "5.0": "0.0%",
+        "6.0": "0.0%",
+        "6.5": "0.1%",
+        "7.0": "99.8%",
+        "7.5": "0.0%",
+        "8.0": "0.0%",
+        "8.5": "0.0%"
+      },
+      "probabilities_raw": {
+        "5.0": 0.0,
+        "6.0": 0.0,
+        "6.5": 0.0015,
+        "7.0": 0.9983,
+        "7.5": 0.0002,
+        "8.0": 0.0,
+        "8.5": 0.0
+      }
+    },
+    {
+      "pad": "Blood",
+      "predicted_level": "Negative",
+      "confidence": 0.168,
+      "confidence_pct": "16.8%",
+      "severity": 0,
+      "severity_label": "Normal",
+      "status": "OK",
+      "is_abnormal": false,
+      "clinical_note": "",
+      "all_levels": [
+        {
+          "level": "Negative",
+          "probability": 0.168,
+          "probability_pct": "16.8%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": true
+        },
+        {
+          "level": "Non-hem Trace",
+          "probability": 0.1678,
+          "probability_pct": "16.8%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "Hem Trace",
+          "probability": 0.1667,
+          "probability_pct": "16.7%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "Small",
+          "probability": 0.1657,
+          "probability_pct": "16.6%",
+          "severity": 2,
+          "severity_label": "Moderate",
+          "is_predicted": false
+        },
+        {
+          "level": "Moderate",
+          "probability": 0.165,
+          "probability_pct": "16.5%",
+          "severity": 3,
+          "severity_label": "Critical",
+          "is_predicted": false
+        },
+        {
+          "level": "Large",
+          "probability": 0.1667,
+          "probability_pct": "16.7%",
+          "severity": 3,
+          "severity_label": "Critical",
+          "is_predicted": false
+        }
+      ],
+      "all_levels_ranked": [
+        {
+          "level": "Negative",
+          "probability": 0.168,
+          "probability_pct": "16.8%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": true
+        },
+        {
+          "level": "Non-hem Trace",
+          "probability": 0.1678,
+          "probability_pct": "16.8%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "Hem Trace",
+          "probability": 0.1667,
+          "probability_pct": "16.7%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "Large",
+          "probability": 0.1667,
+          "probability_pct": "16.7%",
+          "severity": 3,
+          "severity_label": "Critical",
+          "is_predicted": false
+        },
+        {
+          "level": "Small",
+          "probability": 0.1657,
+          "probability_pct": "16.6%",
+          "severity": 2,
+          "severity_label": "Moderate",
+          "is_predicted": false
+        },
+        {
+          "level": "Moderate",
+          "probability": 0.165,
+          "probability_pct": "16.5%",
+          "severity": 3,
+          "severity_label": "Critical",
+          "is_predicted": false
+        }
+      ],
+      "probabilities_pct": {
+        "Negative": "16.8%",
+        "Non-hem Trace": "16.8%",
+        "Hem Trace": "16.7%",
+        "Small": "16.6%",
+        "Moderate": "16.5%",
+        "Large": "16.7%"
+      },
+      "probabilities_raw": {
+        "Negative": 0.168,
+        "Non-hem Trace": 0.1678,
+        "Hem Trace": 0.1667,
+        "Small": 0.1657,
+        "Moderate": 0.165,
+        "Large": 0.1667
+      }
+    },
+    {
+      "pad": "Specific Gravity",
+      "predicted_level": "1.015",
+      "confidence": 0.4193,
+      "confidence_pct": "41.9%",
+      "severity": 0,
+      "severity_label": "Normal",
+      "status": "OK",
+      "is_abnormal": false,
+      "clinical_note": "",
+      "all_levels": [
+        {
+          "level": "1.000",
+          "probability": 0.0041,
+          "probability_pct": "0.4%",
+          "severity": 2,
+          "severity_label": "Moderate",
+          "is_predicted": false
+        },
+        {
+          "level": "1.005",
+          "probability": 0.1094,
+          "probability_pct": "10.9%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": false
+        },
+        {
+          "level": "1.010",
+          "probability": 0.3963,
+          "probability_pct": "39.6%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": false
+        },
+        {
+          "level": "1.015",
+          "probability": 0.4193,
+          "probability_pct": "41.9%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": true
+        },
+        {
+          "level": "1.020",
+          "probability": 0.056,
+          "probability_pct": "5.6%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": false
+        },
+        {
+          "level": "1.025",
+          "probability": 0.0125,
+          "probability_pct": "1.2%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "1.030",
+          "probability": 0.0024,
+          "probability_pct": "0.2%",
+          "severity": 2,
+          "severity_label": "Moderate",
+          "is_predicted": false
+        }
+      ],
+      "all_levels_ranked": [
+        {
+          "level": "1.015",
+          "probability": 0.4193,
+          "probability_pct": "41.9%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": true
+        },
+        {
+          "level": "1.010",
+          "probability": 0.3963,
+          "probability_pct": "39.6%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": false
+        },
+        {
+          "level": "1.005",
+          "probability": 0.1094,
+          "probability_pct": "10.9%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": false
+        },
+        {
+          "level": "1.020",
+          "probability": 0.056,
+          "probability_pct": "5.6%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": false
+        },
+        {
+          "level": "1.025",
+          "probability": 0.0125,
+          "probability_pct": "1.2%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "1.000",
+          "probability": 0.0041,
+          "probability_pct": "0.4%",
+          "severity": 2,
+          "severity_label": "Moderate",
+          "is_predicted": false
+        },
+        {
+          "level": "1.030",
+          "probability": 0.0024,
+          "probability_pct": "0.2%",
+          "severity": 2,
+          "severity_label": "Moderate",
+          "is_predicted": false
+        }
+      ],
+      "probabilities_pct": {
+        "1.000": "0.4%",
+        "1.005": "10.9%",
+        "1.010": "39.6%",
+        "1.015": "41.9%",
+        "1.020": "5.6%",
+        "1.025": "1.2%",
+        "1.030": "0.2%"
+      },
+      "probabilities_raw": {
+        "1.000": 0.0041,
+        "1.005": 0.1094,
+        "1.010": 0.3963,
+        "1.015": 0.4193,
+        "1.020": 0.056,
+        "1.025": 0.0125,
+        "1.030": 0.0024
+      }
+    },
+    {
+      "pad": "Ketone",
+      "predicted_level": "Negative",
+      "confidence": 0.8627,
+      "confidence_pct": "86.3%",
+      "severity": 0,
+      "severity_label": "Normal",
+      "status": "OK",
+      "is_abnormal": false,
+      "clinical_note": "",
+      "all_levels": [
+        {
+          "level": "Negative",
+          "probability": 0.8627,
+          "probability_pct": "86.3%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": true
+        },
+        {
+          "level": "Trace",
+          "probability": 0.1162,
+          "probability_pct": "11.6%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "Small",
+          "probability": 0.021,
+          "probability_pct": "2.1%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "Moderate",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 2,
+          "severity_label": "Moderate",
+          "is_predicted": false
+        },
+        {
+          "level": "Large",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 3,
+          "severity_label": "Critical",
+          "is_predicted": false
+        },
+        {
+          "level": "Very Large",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 3,
+          "severity_label": "Critical",
+          "is_predicted": false
+        }
+      ],
+      "all_levels_ranked": [
+        {
+          "level": "Negative",
+          "probability": 0.8627,
+          "probability_pct": "86.3%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": true
+        },
+        {
+          "level": "Trace",
+          "probability": 0.1162,
+          "probability_pct": "11.6%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "Small",
+          "probability": 0.021,
+          "probability_pct": "2.1%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "Moderate",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 2,
+          "severity_label": "Moderate",
+          "is_predicted": false
+        },
+        {
+          "level": "Large",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 3,
+          "severity_label": "Critical",
+          "is_predicted": false
+        },
+        {
+          "level": "Very Large",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 3,
+          "severity_label": "Critical",
+          "is_predicted": false
+        }
+      ],
+      "probabilities_pct": {
+        "Negative": "86.3%",
+        "Trace": "11.6%",
+        "Small": "2.1%",
+        "Moderate": "0.0%",
+        "Large": "0.0%",
+        "Very Large": "0.0%"
+      },
+      "probabilities_raw": {
+        "Negative": 0.8627,
+        "Trace": 0.1162,
+        "Small": 0.021,
+        "Moderate": 0.0,
+        "Large": 0.0,
+        "Very Large": 0.0
+      }
+    },
+    {
+      "pad": "Bilirubin",
+      "predicted_level": "Negative",
+      "confidence": 0.7202,
+      "confidence_pct": "72.0%",
+      "severity": 0,
+      "severity_label": "Normal",
+      "status": "OK",
+      "is_abnormal": false,
+      "clinical_note": "",
+      "all_levels": [
+        {
+          "level": "Negative",
+          "probability": 0.7202,
+          "probability_pct": "72.0%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": true
+        },
+        {
+          "level": "Small",
+          "probability": 0.2798,
+          "probability_pct": "28.0%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "Moderate",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 2,
+          "severity_label": "Moderate",
+          "is_predicted": false
+        },
+        {
+          "level": "Large",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 3,
+          "severity_label": "Critical",
+          "is_predicted": false
+        }
+      ],
+      "all_levels_ranked": [
+        {
+          "level": "Negative",
+          "probability": 0.7202,
+          "probability_pct": "72.0%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": true
+        },
+        {
+          "level": "Small",
+          "probability": 0.2798,
+          "probability_pct": "28.0%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": false
+        },
+        {
+          "level": "Moderate",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 2,
+          "severity_label": "Moderate",
+          "is_predicted": false
+        },
+        {
+          "level": "Large",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 3,
+          "severity_label": "Critical",
+          "is_predicted": false
+        }
+      ],
+      "probabilities_pct": {
+        "Negative": "72.0%",
+        "Small": "28.0%",
+        "Moderate": "0.0%",
+        "Large": "0.0%"
+      },
+      "probabilities_raw": {
+        "Negative": 0.7202,
+        "Small": 0.2798,
+        "Moderate": 0.0,
+        "Large": 0.0
+      }
+    },
+    {
+      "pad": "Glucose",
+      "predicted_level": "Trace",
+      "confidence": 0.9013,
+      "confidence_pct": "90.1%",
+      "severity": 1,
+      "severity_label": "Mild",
+      "status": "MILD",
+      "is_abnormal": true,
+      "clinical_note": "Glucose in urine — possible diabetes mellitus",
+      "all_levels": [
+        {
+          "level": "Negative",
+          "probability": 0.0987,
+          "probability_pct": "9.9%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": false
+        },
+        {
+          "level": "Trace",
+          "probability": 0.9013,
+          "probability_pct": "90.1%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": true
+        },
+        {
+          "level": "Mild",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 2,
+          "severity_label": "Moderate",
+          "is_predicted": false
+        },
+        {
+          "level": "Moderate",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 2,
+          "severity_label": "Moderate",
+          "is_predicted": false
+        },
+        {
+          "level": "High",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 3,
+          "severity_label": "Critical",
+          "is_predicted": false
+        },
+        {
+          "level": "Very High",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 3,
+          "severity_label": "Critical",
+          "is_predicted": false
+        }
+      ],
+      "all_levels_ranked": [
+        {
+          "level": "Trace",
+          "probability": 0.9013,
+          "probability_pct": "90.1%",
+          "severity": 1,
+          "severity_label": "Mild",
+          "is_predicted": true
+        },
+        {
+          "level": "Negative",
+          "probability": 0.0987,
+          "probability_pct": "9.9%",
+          "severity": 0,
+          "severity_label": "Normal",
+          "is_predicted": false
+        },
+        {
+          "level": "Mild",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 2,
+          "severity_label": "Moderate",
+          "is_predicted": false
+        },
+        {
+          "level": "Moderate",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 2,
+          "severity_label": "Moderate",
+          "is_predicted": false
+        },
+        {
+          "level": "High",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 3,
+          "severity_label": "Critical",
+          "is_predicted": false
+        },
+        {
+          "level": "Very High",
+          "probability": 0.0,
+          "probability_pct": "0.0%",
+          "severity": 3,
+          "severity_label": "Critical",
+          "is_predicted": false
+        }
+      ],
+      "probabilities_pct": {
+        "Negative": "9.9%",
+        "Trace": "90.1%",
+        "Mild": "0.0%",
+        "Moderate": "0.0%",
+        "High": "0.0%",
+        "Very High": "0.0%"
+      },
+      "probabilities_raw": {
+        "Negative": 0.0987,
+        "Trace": 0.9013,
+        "Mild": 0.0,
+        "Moderate": 0.0,
+        "High": 0.0,
+        "Very High": 0.0
+      }
+    }
+  ]
+}

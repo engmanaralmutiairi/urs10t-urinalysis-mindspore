@@ -1,0 +1,76 @@
+{
+  "Leukocytes": [
+    "Negative",
+    "Trace",
+    "Small",
+    "Moderate",
+    "Large"
+  ],
+  "Nitrite": [
+    "Negative",
+    "Positive"
+  ],
+  "Urobilinogen": [
+    "Low",
+    "Normal",
+    "Elevated",
+    "High",
+    "Very High"
+  ],
+  "Protein": [
+    "Negative",
+    "Trace",
+    "Mild",
+    "Moderate",
+    "High",
+    "Very High"
+  ],
+  "pH": [
+    "5.0",
+    "6.0",
+    "6.5",
+    "7.0",
+    "7.5",
+    "8.0",
+    "8.5"
+  ],
+  "Blood": [
+    "Negative",
+    "Non-hem Trace",
+    "Hem Trace",
+    "Small",
+    "Moderate",
+    "Large"
+  ],
+  "Specific Gravity": [
+    "1.000",
+    "1.005",
+    "1.010",
+    "1.015",
+    "1.020",
+    "1.025",
+    "1.030"
+  ],
+  "Ketone": [
+    "Negative",
+    "Trace",
+    "Small",
+    "Moderate",
+    "Large",
+    "Very Large"
+  ],
+  "Bilirubin": [
+    "Negative",
+    "Small",
+    "Moderate",
+    "Large"
+  ],
+  "Glucose": [
+    "Negative",
+    "Trace",
+    "Mild",
+    "Moderate",
+    "High",
+    "Very High"
+  ]
+}

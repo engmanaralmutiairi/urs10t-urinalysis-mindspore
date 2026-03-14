@@ -1,0 +1,11 @@
+models/
+*.ckpt
+training_data/
+tmp/
+.modelarts/
+lost+found/
+github/
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

@@ -1,0 +1,25 @@
+# URS-10T Urinalysis Strip Detection System
+# Kuwait Tech Titans — Huawei ModelArts / MindSpore 1.7.0
+#
+# NOTE: mindspore==1.7.0 is pre-installed in the ModelArts mindspore_1_7_0 image.
+#       Do NOT pip install mindspore inside ModelArts — it will break the environment.
+#
+# Install the remaining dependencies with Cell 1, or manually:
+#   pip install -r requirements.txt --quiet
+
+# Computer vision
+opencv-python-headless>=4.5.5
+
+# Scientific computing
+numpy>=1.21.0
+
+# Plotting & evaluation
+matplotlib>=3.4.0
+scikit-learn>=0.24.0
+Pillow>=8.0.0
+
+# Huawei OBS SDK (object storage — model registry + results)
+esdk-obs-python>=3.21.4
+
+# Notebook widgets (file upload button in Cell 5)
+ipywidgets>=7.6.5

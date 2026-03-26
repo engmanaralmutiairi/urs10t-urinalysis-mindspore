@@ -1,7 +1,7 @@
 # URS-10T Urinalysis Strip Detection System
 
 **Team:** Kuwait Tech Titans  
-**Members:** Manar Almutairi · Mona Alajmi · Nourah Alzamhoul  
+**Members:** Manar Almutairi · Mona Alajmi · Nourah AlZahmoul
 **Platform:** Huawei ModelArts · MindSpore 1.7.0 · Huawei OBS  
 **Version:** v1.0 — Trained 2026-03-08
 

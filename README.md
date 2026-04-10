@@ -5,6 +5,8 @@
 **Platform:** Huawei ModelArts · MindSpore 1.7.0 · Huawei OBS  
 **Version:** v1.0 — Trained 2026-03-08
 
+REPLIT: https://3845f2f8-c18a-4113-ab00-3ceafbf3ee1e-00-1rxmc97iwn1qv.riker.replit.dev 
+
 ---
 
 ## Overview
